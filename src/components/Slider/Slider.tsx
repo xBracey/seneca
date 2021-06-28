@@ -15,15 +15,20 @@ export interface ISlider {
 }
 
 export const Slider = ({ answer, setAnswer, options, isDisabled }: ISlider) => {
+  const onOptionClick = (option: string) => {
+    if (!isDisabled) {
+      setAnswer(option);
+    }
+  };
+
   const optionsComponent = options.map((option, optionIndex) => (
     <SliderOption
       key={optionIndex}
       onClick={() => {
-        if (!isDisabled) {
-          setAnswer(option);
-        }
+        onOptionClick(option);
       }}
       isActive={answer === option}
+      data-testid={`option-${option}`}
     >
       {option}
     </SliderOption>

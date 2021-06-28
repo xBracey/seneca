@@ -37,6 +37,7 @@ export const Questions = ({ questions, onChange, isCorrect }: IQuestions) => {
 
   const questionsComponent = questions.map((question, index) => (
     <Slider
+      key={index}
       answer={userAnswers[index]}
       setAnswer={(answer) => {
         setAnswer(answer, index);

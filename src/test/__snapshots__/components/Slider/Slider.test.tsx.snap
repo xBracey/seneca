@@ -1,0 +1,1771 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Slider Component Test props {"answer":"Test1","options":["Test1","Test2","Test3"],"isDisabled":false} with theme blue Renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 32px 0;
+}
+
+.c1 {
+  height: 80px;
+  width: 100%;
+  border: 2px solid #a5e7e2;
+  border-radius: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c2 {
+  position: absolute;
+  height: 80px;
+  width: calc(100% / 3);
+  background-color: #a5e7e2;
+  left: 0%;
+  border-radius: 100px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 2;
+  border-radius: 2px solid;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #4cad94;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width:500px) {
+  .c1 {
+    height: calc(80px * 3);
+  }
+}
+
+@media (max-width:500px) {
+  .c2 {
+    height: calc(100% / 3);
+    width: 100%;
+    left: 0;
+    top: 0%;
+    border-radius: 0px;
+  }
+}
+
+@media (max-width:500px) {
+  .c3 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:500px) {
+  .c4 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width:500px) {
+  .c5 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      />
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+          data-testid="option-Test1"
+        >
+          Test1
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test2"
+        >
+          Test2
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test3"
+        >
+          Test3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test Slider Component Test props {"answer":"Test1","options":["Test1","Test2","Test3"],"isDisabled":false} with theme green Renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 32px 0;
+}
+
+.c1 {
+  height: 80px;
+  width: 100%;
+  border: 2px solid #9cfe72;
+  border-radius: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c2 {
+  position: absolute;
+  height: 80px;
+  width: calc(100% / 3);
+  background-color: #9cfe72;
+  left: 0%;
+  border-radius: 100px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 2;
+  border-radius: 2px solid;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #247c00;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width:500px) {
+  .c1 {
+    height: calc(80px * 3);
+  }
+}
+
+@media (max-width:500px) {
+  .c2 {
+    height: calc(100% / 3);
+    width: 100%;
+    left: 0;
+    top: 0%;
+    border-radius: 0px;
+  }
+}
+
+@media (max-width:500px) {
+  .c3 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:500px) {
+  .c4 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width:500px) {
+  .c5 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      />
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+          data-testid="option-Test1"
+        >
+          Test1
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test2"
+        >
+          Test2
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test3"
+        >
+          Test3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test Slider Component Test props {"answer":"Test1","options":["Test1","Test2","Test3"],"isDisabled":false} with theme orange Renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 32px 0;
+}
+
+.c1 {
+  height: 80px;
+  width: 100%;
+  border: 2px solid #f8caa3;
+  border-radius: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c2 {
+  position: absolute;
+  height: 80px;
+  width: calc(100% / 3);
+  background-color: #f8caa3;
+  left: 0%;
+  border-radius: 100px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 2;
+  border-radius: 2px solid;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #9f938b;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width:500px) {
+  .c1 {
+    height: calc(80px * 3);
+  }
+}
+
+@media (max-width:500px) {
+  .c2 {
+    height: calc(100% / 3);
+    width: 100%;
+    left: 0;
+    top: 0%;
+    border-radius: 0px;
+  }
+}
+
+@media (max-width:500px) {
+  .c3 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:500px) {
+  .c4 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width:500px) {
+  .c5 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      />
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+          data-testid="option-Test1"
+        >
+          Test1
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test2"
+        >
+          Test2
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test3"
+        >
+          Test3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test Slider Component Test props {"answer":"Test1","options":["Test1","Test2","Test3"],"isDisabled":false} with theme pink Renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 32px 0;
+}
+
+.c1 {
+  height: 80px;
+  width: 100%;
+  border: 2px solid #f2cbbd;
+  border-radius: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c2 {
+  position: absolute;
+  height: 80px;
+  width: calc(100% / 3);
+  background-color: #f2cbbd;
+  left: 0%;
+  border-radius: 100px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 2;
+  border-radius: 2px solid;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #e47958;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width:500px) {
+  .c1 {
+    height: calc(80px * 3);
+  }
+}
+
+@media (max-width:500px) {
+  .c2 {
+    height: calc(100% / 3);
+    width: 100%;
+    left: 0;
+    top: 0%;
+    border-radius: 0px;
+  }
+}
+
+@media (max-width:500px) {
+  .c3 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:500px) {
+  .c4 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width:500px) {
+  .c5 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      />
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+          data-testid="option-Test1"
+        >
+          Test1
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test2"
+        >
+          Test2
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test3"
+        >
+          Test3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test Slider Component Test props {"answer":"Test1","options":["Test1","Test2","Test3"],"isDisabled":false} with theme yellow Renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 32px 0;
+}
+
+.c1 {
+  height: 80px;
+  width: 100%;
+  border: 2px solid #ffe082;
+  border-radius: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c2 {
+  position: absolute;
+  height: 80px;
+  width: calc(100% / 3);
+  background-color: #ffe082;
+  left: 0%;
+  border-radius: 100px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 2;
+  border-radius: 2px solid;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #b58800;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width:500px) {
+  .c1 {
+    height: calc(80px * 3);
+  }
+}
+
+@media (max-width:500px) {
+  .c2 {
+    height: calc(100% / 3);
+    width: 100%;
+    left: 0;
+    top: 0%;
+    border-radius: 0px;
+  }
+}
+
+@media (max-width:500px) {
+  .c3 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:500px) {
+  .c4 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width:500px) {
+  .c5 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      />
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+          data-testid="option-Test1"
+        >
+          Test1
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test2"
+        >
+          Test2
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test3"
+        >
+          Test3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test Slider Component Test props {"answer":"Test1","options":["Test1","Test2","Test3"],"isDisabled":true} with theme blue Renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 32px 0;
+}
+
+.c1 {
+  height: 80px;
+  width: 100%;
+  border: 2px solid #a5e7e2;
+  border-radius: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c2 {
+  position: absolute;
+  height: 80px;
+  width: calc(100% / 3);
+  background-color: #a5e7e2;
+  left: 0%;
+  border-radius: 100px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 2;
+  border-radius: 2px solid;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #4cad94;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width:500px) {
+  .c1 {
+    height: calc(80px * 3);
+  }
+}
+
+@media (max-width:500px) {
+  .c2 {
+    height: calc(100% / 3);
+    width: 100%;
+    left: 0;
+    top: 0%;
+    border-radius: 0px;
+  }
+}
+
+@media (max-width:500px) {
+  .c3 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:500px) {
+  .c4 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width:500px) {
+  .c5 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      />
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+          data-testid="option-Test1"
+        >
+          Test1
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test2"
+        >
+          Test2
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test3"
+        >
+          Test3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test Slider Component Test props {"answer":"Test1","options":["Test1","Test2","Test3"],"isDisabled":true} with theme green Renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 32px 0;
+}
+
+.c1 {
+  height: 80px;
+  width: 100%;
+  border: 2px solid #9cfe72;
+  border-radius: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c2 {
+  position: absolute;
+  height: 80px;
+  width: calc(100% / 3);
+  background-color: #9cfe72;
+  left: 0%;
+  border-radius: 100px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 2;
+  border-radius: 2px solid;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #247c00;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width:500px) {
+  .c1 {
+    height: calc(80px * 3);
+  }
+}
+
+@media (max-width:500px) {
+  .c2 {
+    height: calc(100% / 3);
+    width: 100%;
+    left: 0;
+    top: 0%;
+    border-radius: 0px;
+  }
+}
+
+@media (max-width:500px) {
+  .c3 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:500px) {
+  .c4 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width:500px) {
+  .c5 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      />
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+          data-testid="option-Test1"
+        >
+          Test1
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test2"
+        >
+          Test2
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test3"
+        >
+          Test3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test Slider Component Test props {"answer":"Test1","options":["Test1","Test2","Test3"],"isDisabled":true} with theme orange Renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 32px 0;
+}
+
+.c1 {
+  height: 80px;
+  width: 100%;
+  border: 2px solid #f8caa3;
+  border-radius: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c2 {
+  position: absolute;
+  height: 80px;
+  width: calc(100% / 3);
+  background-color: #f8caa3;
+  left: 0%;
+  border-radius: 100px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 2;
+  border-radius: 2px solid;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #9f938b;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width:500px) {
+  .c1 {
+    height: calc(80px * 3);
+  }
+}
+
+@media (max-width:500px) {
+  .c2 {
+    height: calc(100% / 3);
+    width: 100%;
+    left: 0;
+    top: 0%;
+    border-radius: 0px;
+  }
+}
+
+@media (max-width:500px) {
+  .c3 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:500px) {
+  .c4 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width:500px) {
+  .c5 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      />
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+          data-testid="option-Test1"
+        >
+          Test1
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test2"
+        >
+          Test2
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test3"
+        >
+          Test3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test Slider Component Test props {"answer":"Test1","options":["Test1","Test2","Test3"],"isDisabled":true} with theme pink Renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 32px 0;
+}
+
+.c1 {
+  height: 80px;
+  width: 100%;
+  border: 2px solid #f2cbbd;
+  border-radius: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c2 {
+  position: absolute;
+  height: 80px;
+  width: calc(100% / 3);
+  background-color: #f2cbbd;
+  left: 0%;
+  border-radius: 100px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 2;
+  border-radius: 2px solid;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #e47958;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width:500px) {
+  .c1 {
+    height: calc(80px * 3);
+  }
+}
+
+@media (max-width:500px) {
+  .c2 {
+    height: calc(100% / 3);
+    width: 100%;
+    left: 0;
+    top: 0%;
+    border-radius: 0px;
+  }
+}
+
+@media (max-width:500px) {
+  .c3 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:500px) {
+  .c4 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width:500px) {
+  .c5 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      />
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+          data-testid="option-Test1"
+        >
+          Test1
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test2"
+        >
+          Test2
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test3"
+        >
+          Test3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test Slider Component Test props {"answer":"Test1","options":["Test1","Test2","Test3"],"isDisabled":true} with theme yellow Renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 32px 0;
+}
+
+.c1 {
+  height: 80px;
+  width: 100%;
+  border: 2px solid #ffe082;
+  border-radius: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c2 {
+  position: absolute;
+  height: 80px;
+  width: calc(100% / 3);
+  background-color: #ffe082;
+  left: 0%;
+  border-radius: 100px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 2;
+  border-radius: 2px solid;
+}
+
+.c3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #b58800;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width:500px) {
+  .c1 {
+    height: calc(80px * 3);
+  }
+}
+
+@media (max-width:500px) {
+  .c2 {
+    height: calc(100% / 3);
+    width: 100%;
+    left: 0;
+    top: 0%;
+    border-radius: 0px;
+  }
+}
+
+@media (max-width:500px) {
+  .c3 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:500px) {
+  .c4 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width:500px) {
+  .c5 {
+    min-height: 40px;
+    font-size: 20px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      />
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+          data-testid="option-Test1"
+        >
+          Test1
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test2"
+        >
+          Test2
+        </div>
+        <div
+          class="c5"
+          data-testid="option-Test3"
+        >
+          Test3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
