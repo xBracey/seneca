@@ -1,6 +1,5 @@
 import { Slider } from "components/Slider";
 import React, { useEffect, useState } from "react";
-import { QuestionsContainer } from "./Questions.styled";
 import _ from "lodash";
 
 interface IQuestion {
@@ -10,23 +9,24 @@ interface IQuestion {
 
 interface IQuestions {
   questions: IQuestion[];
-  onCorrect: () => void;
+  onChange: (correctNumber: number) => void;
+  isCorrect: boolean;
 }
 
-export const Questions = ({ questions, onCorrect }: IQuestions) => {
+export const Questions = ({ questions, onChange, isCorrect }: IQuestions) => {
   const [userAnswers, setUserAnswers] = useState(
-    questions.map((question) => question.answers[0])
+    questions.map((question) =>
+      question.answers.find((answer) => answer !== question.answer)
+    )
   );
 
   useEffect(() => {
-    if (
-      _.isEqual(
+    onChange(
+      _.intersection(
         userAnswers,
         questions.map((question) => question.answer)
-      )
-    ) {
-      onCorrect();
-    }
+      ).length
+    );
   }, [userAnswers]);
 
   const setAnswer = (answer: string, index: number) => {
@@ -42,8 +42,9 @@ export const Questions = ({ questions, onCorrect }: IQuestions) => {
         setAnswer(answer, index);
       }}
       options={question.answers}
+      isDisabled={isCorrect}
     />
   ));
 
-  return <QuestionsContainer>{questionsComponent}</QuestionsContainer>;
+  return <div>{questionsComponent}</div>;
 };

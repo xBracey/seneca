@@ -11,13 +11,18 @@ export interface ISlider {
   answer: string;
   setAnswer: (answer: string) => void;
   options: string[];
+  isDisabled: boolean;
 }
 
-export const Slider = ({ answer, setAnswer, options }: ISlider) => {
+export const Slider = ({ answer, setAnswer, options, isDisabled }: ISlider) => {
   const optionsComponent = options.map((option, optionIndex) => (
     <SliderOption
       key={optionIndex}
-      onClick={() => setAnswer(option)}
+      onClick={() => {
+        if (!isDisabled) {
+          setAnswer(option);
+        }
+      }}
       isActive={answer === option}
     >
       {option}

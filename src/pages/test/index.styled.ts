@@ -1,53 +1,47 @@
 import styled from "styled-components";
 import { colours } from "theme/colours";
 
-export const TestPageContainer = styled.div`
-  background: ${colours.orangeBackground};
-  min-height: calc(100vh - 128px);
-  width: calc(100vw - 64px);
+const pickBackgroundColour = (props: any) => {
+  switch (props.theme.main) {
+    case "blue":
+      return colours.blueBackground;
+    case "pink":
+      return colours.pinkBackground;
+    case "yellow":
+      return colours.yellowBackground;
+    case "green":
+      return colours.greenBackground;
+    default:
+      return colours.orangeBackground;
+  }
+};
+
+export const TestPageOuterContainer = styled.div`
+  background: ${pickBackgroundColour};
+  height: 100vh;
+  width: 100vw;
   display: flex;
-  padding: 64px 32px;
   flex-direction: column;
   align-items: center;
-`;
-
-export const PageHeader = styled.h1`
-  font-weight: 500;
-  margin: 32px 0;
-  text-align: center;
-  color: ${colours.white};
-`;
-
-export const PageDescription = styled.p`
-  margin: 16px 0;
-  text-align: center;
-  max-width: 400px;
-  color: ${colours.white};
-`;
-
-export const PageLabels = styled.div`
-  display: flex;
-  align-items: center;
   justify-content: center;
-  margin-bottom: 16px;
-
-  @media (max-width: 500px) {
-    flex-direction: column;
-  }
+  transition: all 0.5s;
 `;
 
-export const Score = styled.p`
-  margin: 8px 0;
-  text-align: center;
+export const TestPageContainer = styled.div`
+  width: calc(100% - 32px);
+  padding: 32px 16px;
+`;
+
+export const QuestionHeader = styled.h1`
   color: ${colours.white};
   font-weight: 500;
-  font-size: 18px;
+  text-align: center;
+  margin: 40px 0;
 `;
 
-export const ScoreOverall = styled.p`
-  margin: 12px 0;
-  text-align: center;
+export const QuestionDescription = styled.p`
   color: ${colours.white};
-  font-weight: 600;
+  text-align: center;
   font-size: 20px;
+  margin: 25px 0;
 `;
