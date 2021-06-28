@@ -1,1 +1,1 @@
-# seneca
+# customer-centricity

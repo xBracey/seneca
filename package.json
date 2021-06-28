@@ -1,0 +1,54 @@
+{
+  "name": "seneca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "next build && next start",
+    "develop": "next dev -p 8000",
+    "build": "next build",
+    "storybook": "start-storybook -s ./public -p 9000 ",
+    "storybook:build": "build-storybook -c .storybook -o .out",
+    "test": "jest --collectCoverage",
+    "test:watch": "jest --watchAll --collectCoverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xBracey/seneca.git"
+  },
+  "author": "Thomas Brace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xBracey/seneca/issues"
+  },
+  "homepage": "https://github.com/xBracey/seneca#readme",
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-transform-react-jsx": "^7.14.5",
+    "@storybook/addon-actions": "^6.1.14",
+    "@storybook/addon-knobs": "^6.1.14",
+    "@storybook/react": "^6.0.22",
+    "@testing-library/jest-dom": "^5.11.2",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/react-hooks": "^5.1.0",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/lodash": "^4.14.168",
+    "@types/node": "^13.13.5",
+    "@types/testing-library__jest-dom": "^5.14.0",
+    "babel-loader": "^8.2.1",
+    "jest": "^27.0.5",
+    "jest-styled-components": "^7.0.4",
+    "lodash": "^4.17.21",
+    "next": "^10.0.8",
+    "prettier": "2.0.5",
+    "react": "^16.12.0",
+    "react-docgen-typescript": "^1.20.5",
+    "react-dom": "^16.12.0",
+    "styled-components": "^5.1.0",
+    "ts-jest": "^26.4.4",
+    "ts-node": "^9.0.0",
+    "tsconfig-paths": "^3.9.0",
+    "typeface-roboto": "^1.1.13",
+    "typescript": "^3.8.3"
+  }
+}
