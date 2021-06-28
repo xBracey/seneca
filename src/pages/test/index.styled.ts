@@ -18,7 +18,7 @@ const pickBackgroundColour = (props: any) => {
 
 export const TestPageOuterContainer = styled.div`
   background: ${pickBackgroundColour};
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -29,6 +29,7 @@ export const TestPageOuterContainer = styled.div`
 
 export const TestPageContainer = styled.div`
   width: calc(100% - 32px);
+  max-width: 1000px;
   padding: 32px 16px;
 `;
 

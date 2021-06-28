@@ -10,8 +10,8 @@ interface ISliderOption {
   isActive: boolean;
 }
 
-interface ISliderContainer {
-  isOverflow: boolean;
+interface ISliderBackground {
+  answerLength: number;
 }
 
 const pickLightColour = (props: any) => {
@@ -49,13 +49,22 @@ const calculateSliderPosition = (props: ISliderActive) => {
   return `${percent}%`;
 };
 
-export const SliderBackground = styled.div`
+export const SliderContainer = styled.div`
+  display: flex;
+  padding: 32px 0;
+`;
+
+export const SliderBackground = styled.div<ISliderBackground>`
   height: 80px;
   width: 100%;
   border: 2px solid ${pickLightColour};
   border-radius: 100px;
   position: relative;
   overflow: hidden;
+
+  @media (max-width: 500px) {
+    height: calc(80px * ${(props) => props.answerLength});
+  }
 `;
 
 export const SliderActive = styled.div<ISliderActive>`
@@ -68,6 +77,14 @@ export const SliderActive = styled.div<ISliderActive>`
   transition: all 0.5s;
   z-index: 2;
   border-radius: 2px solid;
+
+  @media (max-width: 500px) {
+    height: calc(100% / ${(props) => props.optionLength});
+    width: 100%;
+    left: 0;
+    top: ${calculateSliderPosition};
+    border-radius: 0px;
+  }
 `;
 
 export const SliderOptions = styled.div`
@@ -80,6 +97,10 @@ export const SliderOptions = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
 `;
 
 export const SliderOption = styled.div<ISliderOption>`
@@ -89,29 +110,13 @@ export const SliderOption = styled.div<ISliderOption>`
   font-size: 24px;
   cursor: pointer;
   transition: all 0.5s;
-  overflow: auto;
-  padding: 20px 10px;
-`;
-
-export const SliderContainer = styled.div<ISliderContainer>`
+  padding: 20px;
   display: flex;
-  padding: 32px 0;
+  justify-content: center;
+  align-items: center;
 
-  ${(props) =>
-    props.isOverflow
-      ? css`
-          ${SliderBackground}, ${SliderActive} {
-            height: initial;
-            min-height: 160px;
-          }
-
-          ${SliderOptions} {
-            flex-direction: column;
-          }
-
-          ${SliderOption} {
-            min-height: 80px;
-          }
-        `
-      : null}
+  @media (max-width: 500px) {
+    min-height: 40px;
+    font-size: 20px;
+  }
 `;

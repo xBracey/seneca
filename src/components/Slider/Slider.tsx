@@ -33,7 +33,7 @@ export const Slider = ({ answer, setAnswer, options, isDisabled }: ISlider) => {
 
   return (
     <SliderContainer>
-      <SliderBackground>
+      <SliderBackground answerLength={options.length}>
         <SliderActive optionIndex={optionIndex} optionLength={options.length} />
         <SliderOptions>{optionsComponent}</SliderOptions>
       </SliderBackground>
