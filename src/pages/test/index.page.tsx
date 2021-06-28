@@ -1,5 +1,6 @@
 import { Questions } from "components/Questions";
-import React, { useState } from "react";
+import { randomiseQuestions } from "lib/randomiseQuestions";
+import React, { useEffect, useState } from "react";
 import { ThemeProvider } from "styled-components";
 import {
   QuestionHeader,
@@ -31,9 +32,23 @@ const questions = [
 const themes = ["orange", "yellow", "pink", "blue", "green"];
 
 const Home = () => {
+  const [testQuestions, setTestQuestions] = useState([]);
+
+  useEffect(() => {
+    setTestQuestions(randomiseQuestions(questions));
+  }, []);
+
   const [questionsCorrect, setQuestionsCorrect] = useState(0);
 
   const isCorrect = questionsCorrect === questions.length;
+
+  const questionsComponent = testQuestions.length ? (
+    <Questions
+      questions={testQuestions}
+      onChange={setQuestionsCorrect}
+      isCorrect={isCorrect}
+    />
+  ) : null;
 
   return (
     <ThemeProvider
@@ -44,11 +59,7 @@ const Home = () => {
       <TestPageOuterContainer>
         <TestPageContainer>
           <QuestionHeader>An animal cell contains:</QuestionHeader>
-          <Questions
-            questions={questions}
-            onChange={setQuestionsCorrect}
-            isCorrect={isCorrect}
-          />
+          {questionsComponent}
           <QuestionDescription>
             {isCorrect ? "The answer is correct" : "The answer is incorrect "}
           </QuestionDescription>

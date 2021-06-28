@@ -2,7 +2,7 @@ import { Slider } from "components/Slider";
 import React, { useEffect, useState } from "react";
 import _ from "lodash";
 
-interface IQuestion {
+export interface IQuestion {
   answers: string[];
   answer: string;
 }

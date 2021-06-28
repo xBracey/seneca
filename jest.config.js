@@ -7,6 +7,7 @@ module.exports = {
   snapshotResolver: "<rootDir>/src/test/snapshotResolver.js",
   collectCoverageFrom: [
     "<rootDir>/src/components/**/*.{js,ts,tsx}",
+    "<rootDir>/src/lib/**/*.{js,ts,tsx}",
     "!<rootDir>/src/**/*.stories.{js,ts,tsx}",
   ],
   moduleDirectories: ["node_modules", "src"],
